@@ -1,0 +1,16 @@
+mecha_car_data <-read.csv('MechaCar_mpg.csv',header = TRUE,check.names = F, stringsAsFactors = F )#import dataset
+library(dplyr)
+library(tidyverse)
+lm(mpg~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD + mpg, data = mecha_car_data)
+#Perform linear regression 
+summary(lm(mpg~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD + mpg, data = mecha_car_data))
+#Create summary for linear regression
+
+
+suspension_coil_df <- read.csv('Suspension_Coil.csv',header = TRUE,check.names = F, stringsAsFactors = F)#import dataset
+
+table_summary <- suspension_coil_df %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),Standard_Deviation=sd(PSI))
+# create summary table to show the mean, median, variance, and standard deviation of the suspension coil’s PSI column
+
+table_summary_by_lot <- suspension_coil_df %>% group_by(Manufacturing_Lot)%>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),Standard_Deviation=sd(PSI), .groups = 'keep')
+#Group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column
