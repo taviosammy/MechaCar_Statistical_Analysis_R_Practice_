@@ -6,6 +6,9 @@ lm(mpg~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD
 summary(lm(mpg~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD + mpg, data = mecha_car_data))
 #Create summary for linear regression
 
+install.packages('car')# campanion to applied regression
+library(car)
+avPlots(mpg_model, layout=c(2,3), marginal.scale=FALSE)
 
 suspension_coil_df <- read.csv('Suspension_Coil.csv',header = TRUE,check.names = F, stringsAsFactors = F)#import dataset
 
