@@ -11,7 +11,10 @@ Inpependent Variables: vehicle_length + vehicle_weight + spoiler_angle + ground_
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
 Based on the results Vehicle_length and ground clearance are very unlikely to provide random amounts of variance in the linear model.  So these independent 
-variables are should be considered as having a strong influence on the MPG of the vehicle.
+variables are should be considered as having a strong influence on the MPG of the vehicle.  Using AVplots backs this up with Vehicle_length and ground clearance steaper lines than the other variables.
+
+![image](https://user-images.githubusercontent.com/99847046/209767487-087f8877-d295-4576-bcf9-bb9659a01500.png)
+
 
 ### Is the slope of the linear model considered to be zero? Why or why not?
 
