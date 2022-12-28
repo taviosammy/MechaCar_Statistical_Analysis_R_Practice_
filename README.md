@@ -25,9 +25,9 @@ At first glance, I don't believe it does because of the value of the Intercept. 
 
 
 
-##Summary Statistics on Suspension Coils
+## Summary Statistics on Suspension Coils
 
-Let's say the design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 PSI. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+## Let's say the design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 PSI. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 ![image](https://user-images.githubusercontent.com/99847046/209764975-4e78ea35-70b8-422b-99d2-7c36bba6e118.png)
 
