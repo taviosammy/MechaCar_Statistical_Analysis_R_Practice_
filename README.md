@@ -20,4 +20,22 @@ The linear model would not be considered zero as the p-value from the summary is
 
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-At first glance I don't believe it does because of the value of the Intercept.  Our intercept is statistically significant, so the inpendent variables we determined to be significant features may need scaling to improve prediction value of the model.  However the Multiple R-squared value indicates 71% of the variability of MPG is explained by this model. A bonus thought is vehicle_weight should have a significant influence on mpg based on intuition but acording to this model it does not. 
+At first glance, I don't believe it does because of the value of the Intercept.  Our intercept is statistically significant, so the inpendent variables we determined to be significant features may need scaling to improve prediction value of the model.  However the Multiple R-squared value indicates 71% of the variability of MPG is explained by this model. A bonus thought is vehicle_weight should have a significant influence on mpg based on intuition but according to this model it does not. 
+
+
+
+
+##Summary Statistics on Suspension Coils
+
+Let's say the design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 PSI. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+![image](https://user-images.githubusercontent.com/99847046/209764975-4e78ea35-70b8-422b-99d2-7c36bba6e118.png)
+
+When data from all lots are summarized, the variance is well within 100 PSI, meeting design specification requirments. 
+
+![image](https://user-images.githubusercontent.com/99847046/209765003-b346c5d2-a35b-4622-a273-075ace8fe412.png)
+
+However, when grouped into different lots, LOT 3 has significant deviation from the mean. 
+
+
+
