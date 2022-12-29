@@ -41,4 +41,34 @@ When data from all lots are summarized, the variance is well within 100 PSI, mee
 However, when grouped into different lots, LOT 3 has significant deviation from the mean. 
 
 
+## T-TEST of PSI 
+
+We want to know if the mean for the PSI variable from the Suspension Coil table is statistically different from a population mean of 1500 PSI.
+
+All Lots
+![image](https://user-images.githubusercontent.com/99847046/209899336-3b5e09db-d8e6-4edf-a919-f550a1d7c408.png)
+  
+The P-value is greater than the significance level of 0.05.  Which means we fail to reject the null hypothesis the both the sample mean and population are
+statistically similar.
+  
+Lot 1
+![image](https://user-images.githubusercontent.com/99847046/209899793-adac41e5-7786-4340-8f23-d941d03f1037.png)
+
+Fail to reject the Null Hypothesis.
+
+Lot2
+![image](https://user-images.githubusercontent.com/99847046/209899818-18c60b74-f016-47e6-afd0-8f85f3061877.png)
+
+Fail to reject the Null Hypothesis.
+
+Lot3
+![image](https://user-images.githubusercontent.com/99847046/209899832-eb9f555a-4584-4de4-80c5-a6b4d584a882.png)
+
+For Lot 3 however, we reject the null hypothesis because the P-value is greater than 0.05.  The conclusion here is than the two means 
+are statiscally different.
+
+
+
+
+
 
